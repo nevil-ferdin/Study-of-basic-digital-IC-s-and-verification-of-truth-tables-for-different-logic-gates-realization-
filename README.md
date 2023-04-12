@@ -60,15 +60,10 @@ Check all the gates following the same procedure.
 Program:
 
 module logicgts(a,b,o1,o2,o3,o4,o5,o6,o7);
-
 input a,b;
-
 output o1,o2,o3,o4,o5,o6,o7;
-
 and(o1,a,b);
-
 or(o2,a,b);
-
 nand(o3,a,b);
 nor(o4,a,b);
 xor(o5,a,b);
@@ -82,10 +77,13 @@ RegisterNumber:
 */
 Logic symbol & Truthtable
 RTL realization
-Output:![rtl viewer](https://user-images.githubusercontent.com/115524975/231413841-e6d54a74-43d4-4e01-9750-7d2e72dcf4ae.png)
+Output:
 RTL
 
+![rtl viewer](https://user-images.githubusercontent.com/115524975/231413841-e6d54a74-43d4-4e01-9750-7d2e72dcf4ae.png)
+
 Result:
+
 ![waveform1](https://user-images.githubusercontent.com/115524975/231413919-0c450389-4ef2-4a35-be94-364cf1bd786e.png)
-)
+
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
