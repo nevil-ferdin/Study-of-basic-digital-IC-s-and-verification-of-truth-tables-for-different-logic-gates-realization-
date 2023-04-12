@@ -1,8 +1,8 @@
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
- AIM:
+## AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
-
-Equipments Required:
+ 
+## Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
 Theory
@@ -57,9 +57,11 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-Program:
 
-module logicgts(a,b,y1,y2,y3,y4,y5,y6,y7);                                                                                               
+## Program:
+
+``` verilog
+module logicgts(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
 and(y1,a,b);
@@ -70,21 +72,22 @@ nand(y5,a,b);
 nor(y6,a,b);
 xnor(y7,a,b);
 endmodule
-
-/*
+```
+```
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: P.Nevil Joe Ferdin
 RegisterNumber: 212222050041
-*/
-Logic symbol & Truthtable
-RTL realization
-Output:
-RTL
+```
+## OUTPUT
+## Logic symbol & Truthtable:
+![logic gates](https://user-images.githubusercontent.com/115524975/231442307-0d0c22be-22e8-4cf3-a87d-c2c1a2db2cfe.png)
+
+## RTL realization:
 
 ![rtl viewer](https://user-images.githubusercontent.com/115524975/231413841-e6d54a74-43d4-4e01-9750-7d2e72dcf4ae.png)
 
-Result:
+## Result:
 
-![waveform1](https://user-images.githubusercontent.com/115524975/231413919-0c450389-4ef2-4a35-be94-364cf1bd786e.png)
+![nevil waveform](https://user-images.githubusercontent.com/115524975/231440258-b7db6dc3-8557-40af-97fa-8168ef41b6a3.png)
 
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
