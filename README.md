@@ -57,7 +57,17 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-Program:![verilog](https://user-images.githubusercontent.com/115524975/231413767-b660b82b-8e4a-4b59-bb8e-304829aeaecb.png)
+Program: module logicgts(a,b,o1,o2,o3,o4,o5,o6,o7);
+input a,b;
+output o1,o2,o3,o4,o5,o6,o7;
+and(o1,a,b);
+or(o2,a,b);
+nand(o3,a,b);
+nor(o4,a,b);
+xor(o5,a,b);
+xnor(o6,a,b);
+not(o7,a);
+endmodule
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: 
