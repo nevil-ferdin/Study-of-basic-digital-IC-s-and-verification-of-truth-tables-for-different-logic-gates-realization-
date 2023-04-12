@@ -68,5 +68,6 @@ RTL realization
 Output:
 RTL
 
-Result:
+Result:png(![verilog](https://user-images.githubusercontent.com/115524975/231408899-533bbd7e-928a-4c38-a13c-54841d71348d.png)
+)
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
