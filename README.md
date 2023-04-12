@@ -70,7 +70,8 @@ Output:![rtl viewer](https://user-images.githubusercontent.com/115524975/2314105
 )
 RTL
 
-Result:![waveform1](https://user-images.githubusercontent.com/115524975/231411612-c4ba1fd4-0fe6-4211-a090-845650cee610.png)
+Result:
+![waveform1](https://user-images.githubusercontent.com/115524975/231411612-c4ba1fd4-0fe6-4211-a090-845650cee610.png)
 )
 )
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
