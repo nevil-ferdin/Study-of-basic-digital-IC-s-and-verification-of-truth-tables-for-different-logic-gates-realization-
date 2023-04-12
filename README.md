@@ -60,10 +60,15 @@ Check all the gates following the same procedure.
 Program:
 
 module logicgts(a,b,o1,o2,o3,o4,o5,o6,o7);
+
 input a,b;
+
 output o1,o2,o3,o4,o5,o6,o7;
+
 and(o1,a,b);
+
 or(o2,a,b);
+
 nand(o3,a,b);
 nor(o4,a,b);
 xor(o5,a,b);
