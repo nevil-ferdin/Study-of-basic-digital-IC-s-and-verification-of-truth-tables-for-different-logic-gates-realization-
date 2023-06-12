@@ -84,10 +84,8 @@ RegisterNumber: 212222050041
 
 ## RTL realization:
 
-![rtl viewer](https://user-images.githubusercontent.com/115524975/231413841-e6d54a74-43d4-4e01-9750-7d2e72dcf4ae.png)
-
+![rtl true](https://github.com/nevil-ferdin/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/115524975/f77d659b-9580-4056-9a1c-3e74f1e4895d)
 ## Result:
 
-![nevil waveform](https://user-images.githubusercontent.com/115524975/231440258-b7db6dc3-8557-40af-97fa-8168ef41b6a3.png)
-
-Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
+![time true](https://github.com/nevil-ferdin/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/115524975/16cb0d27-2df3-4e4a-81ac-5b3ceb679c53)
+#### Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
